@@ -1,7 +1,8 @@
-import en from "./en"
-import tr from "./tr"
+import en from './en'
+import tr from './tr'
+import cs from './cs'
 
-const languages = [en, tr]
+const languages = [tr, en, cs]
 
 const languageObject = {}
 
@@ -14,7 +15,7 @@ languages.map(lang => {
       messages[attr.id] = attr.defaultMessage
       defaultValues = {
         ...defaultValues,
-        ...{ [attr.id]: attr }
+        ...{ [attr.id]: attr },
       }
       return attr
     })
@@ -23,7 +24,7 @@ languages.map(lang => {
   })
   languageObject[lang.name] = {
     messages,
-    default: defaultValues
+    default: defaultValues,
   }
   return lang
 })

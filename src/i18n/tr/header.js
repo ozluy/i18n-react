@@ -5,7 +5,7 @@ export default [
   },
   {
     id: "header-nav-about",
-    defaultMessage: "Hakkında"
+    defaultMessage: "Hakkımızda"
   },
   {
     id: "header-nav-contact",

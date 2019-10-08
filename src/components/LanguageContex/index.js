@@ -2,9 +2,10 @@ import React, { Component } from "react"
 import { IntlProvider, addLocaleData } from "react-intl"
 import en from "react-intl/locale-data/en"
 import tr from "react-intl/locale-data/tr"
+import cs from "react-intl/locale-data/cs"
 import translations from "../../i18n"
 
-addLocaleData([...en, ...tr])
+addLocaleData([...en, ...tr, ...cs])
 
 const LanguageContext = React.createContext({
   currentLang: {},
@@ -21,7 +22,7 @@ class LanguageProvider extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      currentLang: "en",
+      currentLang: "tr",
     }
   }
 
@@ -36,7 +37,7 @@ class LanguageProvider extends Component {
       >
         <IntlProvider
           locale={currentLang}
-          defaultLocale="en"
+          defaultLocale="tr"
           messages={translations[currentLang].messages}
         >
             {this.props.children}

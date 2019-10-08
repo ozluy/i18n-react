@@ -5,6 +5,6 @@ export default [
   },
   {
     id: "footer-made-with-love",
-    defaultMessage: "Aşkla yapıldı"
+    defaultMessage: "❤️ile yapıldı"
   }
 ]

@@ -1,11 +1,11 @@
 export default [
     {
       id: "footer-copyright",
-      defaultMessage: "Copyright {name}, {year}"
+      defaultMessage: "autorská práva {name}, {year}"
     },
     {
       id: "footer-made-with-love",
-      defaultMessage: "Made with ❤️"
+      defaultMessage: "Vyrobeno pomocí ❤️"
     }
   ]
   
