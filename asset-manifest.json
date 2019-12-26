@@ -1,7 +1,7 @@
 {
   "main.css": "/i18n-react/static/css/main.dc42ef3c.chunk.css",
-  "main.js": "/i18n-react/static/js/main.97449446.chunk.js",
-  "main.js.map": "/i18n-react/static/js/main.97449446.chunk.js.map",
+  "main.js": "/i18n-react/static/js/main.bbe82f45.chunk.js",
+  "main.js.map": "/i18n-react/static/js/main.bbe82f45.chunk.js.map",
   "static/js/1.ba744840.chunk.js": "/i18n-react/static/js/1.ba744840.chunk.js",
   "static/js/1.ba744840.chunk.js.map": "/i18n-react/static/js/1.ba744840.chunk.js.map",
   "runtime~main.js": "/i18n-react/static/js/runtime~main.9789d684.js",
@@ -9,6 +9,6 @@
   "static/media/logo.svg": "/i18n-react/static/media/logo.5d5d9eef.svg",
   "static/css/main.dc42ef3c.chunk.css.map": "/i18n-react/static/css/main.dc42ef3c.chunk.css.map",
   "index.html": "/i18n-react/index.html",
-  "precache-manifest.bd84e8c5bf2ab540cd5429fac0ac4a0d.js": "/i18n-react/precache-manifest.bd84e8c5bf2ab540cd5429fac0ac4a0d.js",
+  "precache-manifest.ea3b6857cad838a43db8ea348e8247aa.js": "/i18n-react/precache-manifest.ea3b6857cad838a43db8ea348e8247aa.js",
   "service-worker.js": "/i18n-react/service-worker.js"
 }
